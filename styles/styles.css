@@ -136,13 +136,13 @@ nav ul a {
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
 }
 #banner .banner-text .banner-btn .btn_3 {
   width: 198px;
   height: 52px;
   background-color: transparent;
   border: 1px solid white;
-
   border-radius: 4px;
   font-weight: 600;
   align-items: center;
@@ -150,6 +150,7 @@ nav ul a {
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 #notes {
