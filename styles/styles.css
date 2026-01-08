@@ -207,12 +207,40 @@ nav ul a {
 
 #second_brain{
     max-width: 1360px;
-    margin-top: 120px;
+    margin: 120px auto;
+    
+}
+#second_brain .brain_container{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 220px;
 }
-#second_brain .brain_img{
+#second_brain .brain_container .brain_img{
     width: 600px;
     height: 600px;
+}
+#second_brain .brain_container .brain_text{
+    max-width: 540px;
+}
+.brain_text .green{
+    color: #30b868;
+    margin-bottom: 16px;
+}
+.brain_text h2{
+    font-size: 48px;
+    font-style: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain_text p{
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain_text ul li{
+    list-style: none;
+    display: flex;
+    gap: 7.87px;
+    font-weight: 500px;
+    margin-bottom: 16px;
 }
