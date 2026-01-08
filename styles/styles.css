@@ -182,6 +182,7 @@ nav ul a {
 }
 #notes .list .card {
   max-width: 322px;
+  height: 300px;
   width: 100%;
   padding: 30px;
   border-radius: 8px;
@@ -202,4 +203,16 @@ nav ul a {
     color: #627382;
     margin-bottom: 21.5px;
     margin-top: 16px;
+}
+
+#second_brain{
+    max-width: 1360px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second_brain .brain_img{
+    width: 600px;
+    height: 600px;
 }
