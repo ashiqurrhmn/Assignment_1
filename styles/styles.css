@@ -193,54 +193,100 @@ nav ul a {
   align-items: center;
   text-align: center;
 }
-.card h4{
-    font-size: 24px;
-    font-weight: 600;
-    color: #001931;
-    margin-top: 18px;
+.card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-top: 18px;
 }
-.card p{
-    color: #627382;
-    margin-bottom: 21.5px;
-    margin-top: 16px;
+.card p {
+  color: #627382;
+  margin-bottom: 21.5px;
+  margin-top: 16px;
 }
 
-#second_brain{
-    max-width: 1360px;
-    margin: 120px auto;
-    
+#second_brain {
+  max-width: 1360px;
+  margin: 120px auto;
 }
-#second_brain .brain_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 220px;
+#second_brain .brain_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
 }
-#second_brain .brain_container .brain_img{
-    width: 600px;
-    height: 600px;
+#second_brain .brain_container .brain_img {
+  width: 600px;
+  height: 600px;
 }
-#second_brain .brain_container .brain_text{
-    max-width: 540px;
+#second_brain .brain_container .brain_text {
+  max-width: 540px;
 }
-.brain_text .green{
-    color: #30b868;
-    margin-bottom: 16px;
+.brain_text .green {
+  color: #30b868;
+  margin-bottom: 16px;
 }
-.brain_text h2{
-    font-size: 48px;
-    font-style: bold;
-    color: #001931;
-    margin-bottom: 16px;
+.brain_text h2 {
+  font-size: 48px;
+  font-style: bold;
+  color: #001931;
+  margin-bottom: 16px;
 }
-.brain_text p{
+.brain_text p {
+  color: #627382;
+  margin-bottom: 40px;
+}
+.brain_text ul li {
+  list-style: none;
+  display: flex;
+  gap: 7.87px;
+  font-weight: 500px;
+  margin-bottom: 16px;
+}
+
+#think_clear {
+    padding: 0px 120px;
+}
+#think_clear .think_text {
+  max-width: 1360px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #f7f6f2;
+}
+.think_text h2 {
+  font-size: 40px;
+  font-style: bold;
+  margin-bottom: 16px;
+  margin-top: 80px;
+}
+.think_text p {
+    width: 525px;
+  color: #627382;
+  text-align: center;
+}
+.think_text .btn-4:hover {
+  background-color: #469165;
+}
+.think_text .btn-4 {
+  width: 194px;
+  height: 52px;
+  background-color: #30b868;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.think_text .grey{
     color: #627382;
-    margin-bottom: 40px;
-}
-.brain_text ul li{
-    list-style: none;
-    display: flex;
-    gap: 7.87px;
-    font-weight: 500px;
-    margin-bottom: 16px;
+    margin-bottom: 80px;
 }
