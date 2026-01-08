@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn:hover {
+  background-color: #469165;
+}
+.btn {
+  width: 164px;
+  height: 44px;
+  background-color: #30b868;
+  border-radius: 4px;
+  border: none;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.white-text {
+  color: white;
+}
+.green-text {
+  color: rgba(48, 184, 104, 1);
+}
+.icon-bg {
+  width: 60px;
+  height: 60px;
+  background-color: #f95555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-bg .img {
+  width: 32px;
+  height: 32px;
+}
+
+header {
+  max-width: 2042px;
+}
+nav {
+  max-width: 2042px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 120px;
+}
+nav ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+nav ul a {
+  font-style: medium;
+  text-decoration: none;
+  color: black;
+}
+#banner {
+  max-width: 2042px;
+  padding: 115px 120px 179px 120px;
+  background: url("../assets/hero-bg.png") center / cover no-repeat;
+  align-items: center;
+  text-align: center;
+}
+#banner .banner-text {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+#banner .banner-text .early {
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #ffffff;
+  color: #469165;
+  padding: 8px 16px;
+  border-radius: 1000px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.early .dot {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  background-color: #469165;
+  border-radius: 8px;
+}
+.early .dot::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: rgba(74, 143, 98, 0.25);
+  border-radius: 50%;
+}
+.early .dot::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  background: rgba(74, 143, 98, 0.15);
+  border-radius: 50%;
+}
+#banner .banner-text h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  margin-bottom: 16px;
+}
+#banner .banner-text p {
+  font-size: 18px;
+  width: 770px;
+  color: white;
+  margin: 0 auto;
+}
+#banner .banner-text .banner-btn {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+#banner .banner-text .banner-btn .btn_2:hover {
+  background-color: #469165;
+}
+#banner .banner-text .banner-btn .btn_2 {
+  width: 251px;
+  height: 52px;
+  background-color: #30b868;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+#banner .banner-text .banner-btn .btn_3 {
+  width: 198px;
+  height: 52px;
+  background-color: transparent;
+  border: 1px solid white;
+
+  border-radius: 4px;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
