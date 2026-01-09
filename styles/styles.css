@@ -290,3 +290,43 @@ nav ul a {
     color: #627382;
     margin-bottom: 80px;
 }
+
+footer{
+    max-width: 2042px;
+    margin-top: 120px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+footer .footer_content{
+    max-width: 1360px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer_content .footer_img{
+    width: 139px;
+    height: 60px;
+}
+.footer_content .social{
+    font-size: 20px;
+    font-family: 500;
+    color: white;  
+}
+.footer_content .social ul{
+    margin-top: 16px;
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+.footer_content .social ul li i{
+    cursor: pointer;
+}
+footer hr{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #E5E7EB;
+}
+footer .copy{
+    text-align: center;
+    color: white;
+}
