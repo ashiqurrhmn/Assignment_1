@@ -211,9 +211,9 @@ nav ul a {
 }
 #second_brain .brain_container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  gap: 220px;
+  gap: 60px;
 }
 #second_brain .brain_container .brain_img {
   width: 600px;
